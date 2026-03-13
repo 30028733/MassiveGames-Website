@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+.GamesBlock {
+  display: grid;
+  grid-template-areas:
+  'Colony'
+  'Game2'
+  'TimeMachine';
+  background-color: white;
+  gap: 10px;
+  margin-top: 50px;
+}
+.Colony{
+    grid-area: Colony;
+    font-size: 20px;
+}
+.Game2{
+    grid-area: Game2;
+    font-size: 20px;
+}
+.TimeMachine{
+    grid-area: TimeMachine;
+    font-size: 20px;
+}
+.Colony > img{
+    height: 50%;
+}
+.Game2 > img{
+    height: 50%;
+}
+.TimeMachine > img{
+    height: 50%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Colony {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+    .Game2 {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+    .TimeMachine {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .Colony {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+    .Game2 {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+    .TimeMachine {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .Colony {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+    .Game2 {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+    .TimeMachine {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .Colony {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+    .Game2 {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+    .TimeMachine {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .Colony {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+    .Game2 {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+    .TimeMachine {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+}

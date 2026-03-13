@@ -1,0 +1,99 @@
+.HeaderBlock{
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    margin: 0px;
+}
+.AboutBlock{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    margin: 0px;
+}
+#AboutBack{
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    margin: 0px;
+    opacity: 60%;
+    z-index: 1;
+    height: 100%;
+}
+.AboutBlock > p{
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    z-index: 2;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #HomeHeader{
+        font-size: 25px;
+    }
+    .AboutBlock > p{
+        font-size: 20px;
+        top: 200px;
+    }
+    .AboutBlock{
+        height: 400px;
+    }
+}
+
+/* Small devices 
+(portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #HomeHeader{
+        font-size: 35px;
+    }
+    .AboutBlock > p{
+        font-size: 24px;
+        top: 200px;
+    }
+    .AboutBlock{
+        height: 400px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #HomeHeader{
+        font-size: 35px;
+    }
+    .AboutBlock > p{
+        font-size: 26px;
+        top: 200px;
+    }
+    .AboutBlock{
+        height: 400px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #HomeHeader{
+        font-size: 35px;
+    }
+    .AboutBlock > p{
+        font-size: 200%;
+        top: 200px;
+    }
+    .AboutBlock{
+        height: 400px;
+    }
+}
+/* Extra large devices 
+(large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #HomeHeader{
+        font-size: 40px;
+    }
+    .AboutBlock > p{
+        font-size: 200%;
+        top: 200px;
+    }
+    .AboutBlock{
+        height: 400px;
+    }
+}

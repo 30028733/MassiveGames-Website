@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+.Container {
+  display: grid;
+  grid-template-areas:
+  'Email'
+  'Street';
+  background-color: white;
+  gap: 10px;
+}
+.Email{
+    grid-area: Email;
+    font-size: 60px;
+}
+.Street{
+    grid-area: Street;
+    font-size: 60px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Email {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+    .Street {
+        grid-area: 1/ span 6;
+        font-size: 20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .Email {
+        grid-area: 1/ span 6;
+        font-size: 30px;
+    }
+    .Street {
+        grid-area: 2/ span 6;
+        font-size: 30px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .Email {
+        grid-area: 1/ span 6;
+        font-size: 40px;
+    }
+    .Street {
+        grid-area: 2/ span 6;
+        font-size: 40px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .Email {
+        grid-area: 1/ span 6;
+        font-size: 50px;
+    }
+    .Street {
+        grid-area: 2/ span 6;
+        font-size: 50px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .Email {
+        grid-area: 1/ span 6;
+        font-size: 60px;
+    }
+    .Street {
+        grid-area: 2/ span 6;
+        font-size: 60px;
+    }
+}
