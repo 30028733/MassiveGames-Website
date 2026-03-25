@@ -15,35 +15,35 @@
 .Colony{
     grid-area: Colony;
     font-size: 20px;
-    p{
-        max-width: 800px;
-    }
-    img{
-        width: 100%;
-        max-width: 800px;
-    }
+}
+.Colony > p{
+    max-width: 800px;
+}
+.Colony > img{
+    width: 100%;
+    max-width: 800px;
 }
 .Game2{
     grid-area: Game2;
     font-size: 20px;
-    p{
-        max-width: 800px;
-    }
-    img{
-        width: 100%;
-        max-width: 800px;
-    }
+}
+.Game2 > p{
+    max-width: 800px;
+}
+.Game2 > img{
+    width: 100%;
+    max-width: 800px;
 }
 .TimeMachine{
     grid-area: TimeMachine;
     font-size: 20px;
-    p{
-        max-width: 800px;
-    }
-    img{
-        width: 100%;
-        max-width: 800px;
-    }
+}
+.TimeMachine > p{
+    max-width: 800px;
+}
+.TimeMachine > img{
+    width: 100%;
+    max-width: 800px;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

@@ -2,7 +2,7 @@
     background-color: rgb(0, 0, 0);
     color: white;
     margin: 0px;
-    font-family: impact;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 100;
     cursor: default;
 }
@@ -28,7 +28,6 @@
     top: -34%;
     transform: translate(-50%, -50%);
     text-decoration: none;
-    font-family: Impact;
 }
 .NavBtn{
     border: 2.5px outset rgb(255, 0, 0) ;
@@ -54,7 +53,6 @@
     transform: translate(-50%, -50%);
     text-wrap-mode: nowrap;
     text-align: center;
-    font-family: Impact;
     font-weight: 100;
 }
 #Banner{
@@ -72,7 +70,6 @@ h2{
 p{
     text-align: center;
 }
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 401px) {
     .NavBar{
         height: 50px;

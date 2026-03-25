@@ -26,34 +26,34 @@
     grid-area: Association;
     font-size: 60px;
     padding-top: 10px;
-    a{
-        color: rgb(199, 255, 236);
-        text-decoration: none;
-        cursor: pointer;
-    }
+}
+.Association > a{
+    color: rgb(199, 255, 236);
+    text-decoration: none;
+    cursor: pointer;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .Email {
         grid-area: 1/ span 6;
         font-size: 25px;
-        h2{
-            font-size: 35px;
-        }
+    }
+    .Email > h2{
+        font-size: 35px;
     }
     .Street {
         grid-area: 2/ span 6;
         font-size: 25px;
-        h2{
-            font-size: 35px;
-        }
+    }
+    .Street > h2{
+        font-size: 35px;
     }
     .Association{
         grid-area: 3/ span 6;
         font-size: 15px;
-        h2{
-            font-size: 25px;
-        }
+    }
+    .Association > h2{
+        font-size: 25px;
     }
 }
 
