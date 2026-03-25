@@ -8,29 +8,42 @@
   'Game2'
   'TimeMachine';
   background-color: white;
-  gap: 10px;
-  margin-top: 50px;
+  gap: 0px;
+  column-count: 3;
+  background-color: transparent;
 }
 .Colony{
     grid-area: Colony;
     font-size: 20px;
+    p{
+        max-width: 800px;
+    }
+    img{
+        width: 100%;
+        max-width: 800px;
+    }
 }
 .Game2{
     grid-area: Game2;
     font-size: 20px;
+    p{
+        max-width: 800px;
+    }
+    img{
+        width: 100%;
+        max-width: 800px;
+    }
 }
 .TimeMachine{
     grid-area: TimeMachine;
     font-size: 20px;
-}
-.Colony > img{
-    height: 50%;
-}
-.Game2 > img{
-    height: 50%;
-}
-.TimeMachine > img{
-    height: 50%;
+    p{
+        max-width: 800px;
+    }
+    img{
+        width: 100%;
+        max-width: 800px;
+    }
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -39,11 +52,11 @@
         font-size: 20px;
     }
     .Game2 {
-        grid-area: 1/ span 6;
+        grid-area: 2/ span 6;
         font-size: 20px;
     }
     .TimeMachine {
-        grid-area: 1/ span 6;
+        grid-area: 3/ span 6;
         font-size: 20px;
     }
 }
@@ -55,11 +68,11 @@
         font-size: 20px;
     }
     .Game2 {
-        grid-area: 1/ span 6;
+        grid-area: 2/ span 6;
         font-size: 20px;
     }
     .TimeMachine {
-        grid-area: 1/ span 6;
+        grid-area: 3/ span 6;
         font-size: 20px;
     }
 }
@@ -67,15 +80,17 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .Colony {
-        grid-area: 1/ span 6;
+        grid-area: 1/ span 1;
         font-size: 20px;
+        border-right: 10px solid white;
     }
     .Game2 {
-        grid-area: 1/ span 6;
+        grid-area: 1/ span 1;
         font-size: 20px;
+        border-right: 10px solid white;
     }
     .TimeMachine {
-        grid-area: 1/ span 6;
+        grid-area: 1/ span 1;
         font-size: 20px;
     }
 }
@@ -83,15 +98,17 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .Colony {
-        grid-area: 1/ span 6;
+        grid-area: 1/ span 1;
         font-size: 20px;
+        border-right: 10px solid white;
     }
     .Game2 {
-        grid-area: 1/ span 6;
+        grid-area: 1/ span 1;
         font-size: 20px;
+        border-right: 10px solid white;
     }
     .TimeMachine {
-        grid-area: 1/ span 6;
+        grid-area: 1/ span 1;
         font-size: 20px;
     }
 }
@@ -99,15 +116,17 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .Colony {
-        grid-area: 1/ span 6;
+        grid-area: 1/ span 1;
         font-size: 20px;
+        border-right: 10px solid white;
     }
     .Game2 {
-        grid-area: 1/ span 6;
+        grid-area: 1/ span 1;
         font-size: 20px;
+        border-right: 10px solid white;
     }
     .TimeMachine {
-        grid-area: 1/ span 6;
+        grid-area: 1/ span 1;
         font-size: 20px;
     }
 }

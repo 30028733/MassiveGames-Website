@@ -5,27 +5,55 @@
   display: grid;
   grid-template-areas:
   'Email'
-  'Street';
+  'Street'
+  'Association';
   background-color: white;
-  gap: 10px;
+  gap: 0px;
 }
 .Email{
     grid-area: Email;
     font-size: 60px;
+    padding-bottom: 15px;
+    border-bottom: 10px solid white;
 }
 .Street{
     grid-area: Street;
     font-size: 60px;
+    padding-bottom: 15px;
+    border-bottom: 10px solid white;
+}
+.Association{
+    grid-area: Association;
+    font-size: 60px;
+    padding-top: 10px;
+    a{
+        color: rgb(199, 255, 236);
+        text-decoration: none;
+        cursor: pointer;
+    }
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .Email {
         grid-area: 1/ span 6;
-        font-size: 20px;
+        font-size: 25px;
+        h2{
+            font-size: 35px;
+        }
     }
     .Street {
-        grid-area: 1/ span 6;
-        font-size: 20px;
+        grid-area: 2/ span 6;
+        font-size: 25px;
+        h2{
+            font-size: 35px;
+        }
+    }
+    .Association{
+        grid-area: 3/ span 6;
+        font-size: 15px;
+        h2{
+            font-size: 25px;
+        }
     }
 }
 
@@ -39,6 +67,10 @@
         grid-area: 2/ span 6;
         font-size: 30px;
     }
+    .Association{
+        grid-area: 3/ span 6;
+        font-size: 15px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -51,17 +83,25 @@
         grid-area: 2/ span 6;
         font-size: 40px;
     }
+    .Association{
+        grid-area: 3/ span 6;
+        font-size: 20px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .Email {
         grid-area: 1/ span 6;
-        font-size: 50px;
+        font-size: 40px;
     }
     .Street {
         grid-area: 2/ span 6;
-        font-size: 50px;
+        font-size: 40px;
+    }
+    .Association{
+        grid-area: 3/ span 6;
+        font-size: 20px;
     }
 }
 
@@ -69,10 +109,14 @@
 @media only screen and (min-width: 1200px) {
     .Email {
         grid-area: 1/ span 6;
-        font-size: 60px;
+        font-size: 40px;
     }
     .Street {
         grid-area: 2/ span 6;
-        font-size: 60px;
+        font-size: 40px;
+    }
+    .Association{
+        grid-area: 3/ span 6;
+        font-size: 20px;
     }
 }

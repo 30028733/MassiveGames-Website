@@ -61,9 +61,10 @@
     position: relative;
     width: 100%;
     object-fit: cover;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 10px 0px;
     opacity: 50%;
     z-index: 1;
+    max-width: 100%;
 }
 h2{
     text-align: center;
@@ -72,14 +73,34 @@ p{
     text-align: center;
 }
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 401px) {
     .NavBar{
         height: 50px;
     }
     .NavBar > a{
         font-size: 20px;
         left: 0px;
-        margin: 0px 20px 0px 20px;
+        margin: 0px 3px 0px 3px;
+    }
+    #Title{
+        font-size: 50px;
+        top: 100px;
+        text-wrap-mode: wrap;
+    }
+    #Banner{
+        height: 10%; 
+        min-height: 200px;
+        max-height: 200px;
+    }
+}
+@media only screen and (min-width: 401px) {
+    .NavBar{
+        height: 50px;
+    }
+    .NavBar > a{
+        font-size: 20px;
+        left: 0px;
+        margin: 0px 10px 0px 10px;
     }
     #Title{
         font-size: 50px;
@@ -107,6 +128,7 @@ p{
     #Title{
         font-size: 80px;
         top: 100px;
+        text-wrap-mode: nowrap;
     }
     #Banner{
         height: 10%; 
@@ -151,7 +173,8 @@ p{
         top: 150px;
     }
     #Banner{
-        height: 10%; 
+        height: 400px;
+        width: 120%; 
         min-height: 200px;
         max-height: 300px;
     }
@@ -172,7 +195,8 @@ p{
         top: 150px;
     }
     #Banner{
-        height: 10%; 
+        height: 400px;
+        width: 120%; 
         min-height: 200px;
         max-height: 300px;
     }
